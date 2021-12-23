@@ -1,0 +1,102 @@
+.introduction {
+    height: 100vh;
+    width: 100%;
+    background-position: 100% 100%;
+    background-size: cover;
+}
+
+.introduction p {
+    color: white;
+}
+
+.introduction div h1 {
+    color: rgba(255, 255, 255, 0.466);
+    font-size: 100px;
+    font-weight: bold;
+}
+
+.introduction div h1:hover {
+    color: white;
+    cursor: default;
+    text-shadow: 0px 0px 15px #fff;
+}
+
+.primary-button {
+    background-color: white;
+    height: 45px;
+    border-radius: 25px;
+    border: none;
+    width: 50%;
+}
+
+.primary-button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.336);
+}
+
+.dev-stack {
+    color: black;
+    transition: all 0.5s;
+    padding: 10px;
+}
+
+.dev-stack:hover {
+    color: white;
+    background-color: #001220;
+    transform: scale(1.05);
+    box-shadow: none;
+}
+
+.who-is-michael {
+    height: 75vh;
+    background-size: 100% 100%;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.who-is-michael:hover {
+    transform: scale(1.05);
+}
+
+pre {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif !important;
+}
+
+@media (max-width: 750px) {
+    .introduction div h1 {
+        font-size: 75px;
+    }
+
+    .primary-button {
+        width: auto;
+        padding: 5px 15px;
+    }
+
+    .who-is-michael {
+        height: 100vh;
+        background-size: 180% 100%;
+        background-position: center;
+        transition: all 0.5s;
+    }
+
+    pre {
+        font-size: 16px;
+        font-family: "Montserrat", sans-serif !important;
+    }
+}
+
+@media (max-width: 350px) {
+    .introduction div h1 {
+        font-size: 55px;
+    }
+
+    .primary-button {
+        padding: 1px 15px;
+    }
+
+    .introduction p {
+        font-size: 13px;
+    }
+
+}
