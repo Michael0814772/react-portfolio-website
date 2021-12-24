@@ -2,7 +2,7 @@
     color: orangered;
     font-size: 70px;
     margin: 20px;
-    z-index: 2;
+    z-index: 3;
     cursor: pointer;
 }
 
@@ -20,6 +20,7 @@
     transition: all 0.5s;
     background-color: #001220;
     opacity: 0.95;
+    z-index: 2;
 }
 
 .hide-header {
@@ -58,6 +59,55 @@ li a {
     color: cyan;
 }
 
+.contact img {
+    height: 50vh;
+    width: 100%;
+}
+
+input, textarea {
+    margin-top: 25px;
+    border: none !important;
+    background-color: #EBECF0 !important;
+    background: #EBECF0;
+    box-shadow: 5px 5px 0px #cacbce, -5px -5px 0px #ffffff !important;
+    border-radius: 20px !important;
+}
+
+.form-control:focus {
+    transform: scale(1.02);
+}
+
+.form-control {
+    box-shadow: none;
+}
+
+.contact button {
+    background-color: rgba(0, 0, 255, 0.74);
+    font-weight: bold;
+    color: white;
+}
+
+.contact button:hover {
+    background-color: blue;
+}
+
+.footer-content {
+    background-color: #001220;
+    text-align: center;
+    color: white;
+}
+
+.footer-icons svg {
+    color: white;
+    cursor: pointer;
+}
+
+.footer .footer-icon:hover {
+    color: cyan;
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
 @media (max-width: 750px) {
     .show-header {
         height: 100vh;
@@ -66,6 +116,7 @@ li a {
         border-top-left-radius: 50%;
         border: 2px solid rgba(255, 255, 255, 0.397);
         transition: width 0.5s;
+        z-index: 2;
     }
 
     .hide-header {
@@ -74,5 +125,19 @@ li a {
 
     .menu-icon {
         font-size: 45px;
+    }
+
+    .contact {
+        margin-top: 0 !important;
+        padding: 0 !important;
+    }
+
+    .contact-form {
+        padding: 15px !important;
+        margin: 15px !important;
+    }
+
+    .contact button {
+        width: 150px;
     }
 }

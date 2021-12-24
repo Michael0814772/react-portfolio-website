@@ -7,6 +7,13 @@ import Courses from './pages/Courses';
 import './stylesheets/home.css'
 import './stylesheets/header-footer.css'
 import './stylesheets/courosel.css'
+import './stylesheets/projects-couses.css'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init({
+  duration: 500
+});
 
 function App() {
   return (
@@ -16,9 +23,10 @@ function App() {
         <Route path="/" component={Home} exact />
         <Route path="/projects" component={Project} />
         <Route path="/contact" component={Contact} />
-        <Route path="/courses" component={Courses} />
+        <Route path="/blog" component={Courses} />
 
       </BrowserRouter>
+
     </div>
   );
 }

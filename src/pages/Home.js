@@ -1,5 +1,6 @@
 import React from 'react'
 import Courosel from '../components/Courosel'
+import Footer from '../components/Footer'
 import Header from '../components/Header'
 
 function Home() {
@@ -12,11 +13,11 @@ function Home() {
             <div className="introduction flex-with-center" style={{ backgroundImage: `url('./introbg.svg')` }}>
 
                 <div>
-                    <h1>MICHAEL</h1>
+                    <h1 data-aos='fade-up'>MICHAEL</h1>
 
                     <div className="intro-content d-flex justify-content-between">
                         <p>Frontend React <br /> Developer / Engineer</p>
-                        <button className='primary-button font-bold'>Get Started</button>
+                        <button className='primary-button font-bold'><a href="#courosel">Get Started</a></button>
                     </div>
                 </div>
 
@@ -34,7 +35,7 @@ function Home() {
                 <div className="row justify-content-start">
                     <div className="col-md-4">
 
-                        <div className='n-box2 p-5 font-bold'>
+                        <div data-aos='fade-right' className='n-box2 p-5 font-bold'>
                             <h1>Yes you are right...</h1>
                             <br></br>
                             <p>I am a Javascript Buff...</p>
@@ -43,7 +44,7 @@ function Home() {
                 </div>
 
                 <div className="row pt-5 justify-content-center">
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos='fade-up'>
 
                         <div>
                             <img src="./jsbuff.svg" alt="" height='200' className='w-100' />
@@ -54,7 +55,7 @@ function Home() {
                 <div className="row pt-5 justify-content-end">
                     <div className="col-md-4">
 
-                        <div className='n-box2 p-5 font-bold'>
+                        <div className='n-box2 p-5 font-bold' data-aos='fade-left'>
                             <p>Javascript is one of the most top-ranked programming languages because of its
                                 ubiquitous use on all platforms and mass adoption. Main use cases: Web Development.
                             </p>
@@ -117,6 +118,8 @@ function Home() {
 
                 </div>
             </div>
+
+            <Footer />
 
         </div>
 

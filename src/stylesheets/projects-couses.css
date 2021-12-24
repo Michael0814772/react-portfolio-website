@@ -1,0 +1,136 @@
+.projects-intro .primary-button {
+    background-color: blue;
+    color: white !important;
+    font-weight: bold;
+}
+
+.project {
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.719);
+    border-radius: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    animation: project-animation 10s linear infinite;
+}
+
+.project img {
+    height: 220px;
+    width: 100%;
+}
+
+.project .project-content:hover {
+    opacity: 1;
+    transform: scale(1.02);
+}
+
+.project:hover {
+    animation-play-state: paused;
+}
+
+.project-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 100%;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.blog-intro {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-intro-content {
+    width: 50%;
+    color: white;
+    border-left: 5px solid cyan;
+    padding-left: 30px;
+    animation: blog-intro-animation 10s linear infinite;
+}
+
+.blog-intro-content h1 {
+    font-size: 75px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: cyan;
+    border-bottom: 2px solid white;
+}
+
+.blog-intro-content p {
+    border-right: 2px solid white;
+}
+
+@media (max-width: 750px) {
+
+    .blog-intro-content {
+        width: 100%;
+        padding: 20px;
+        margin: 20px;
+    }
+
+    .blog-intro-content h1 {
+        font-size: 35px;
+        -webkit-text-stroke-width: 1px;
+    }
+}
+
+
+@keyframes project-animation {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-5deg);
+    }    
+}
+
+@keyframes blog-intro-animation {
+    0% {
+        transform: rotate(-5deg);
+    }
+
+    25% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    75%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-5deg);
+    }    
+}
