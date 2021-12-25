@@ -16,7 +16,7 @@ function Contact() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_orecgn8', 'template_j41pb6q', e.target, 'user_TNcna0cG0xTXc6PZTV31p')
+        emailjs.sendForm('service_orecgn8', 'template_j41pb6q', e.target, process.env.REACT_APP_USER)
             .then((result) => {
                 ;
             }, (error) => {
