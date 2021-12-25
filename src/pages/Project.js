@@ -56,7 +56,7 @@ function Project() {
                                     <h3>{project.title}</h3>
                                     <hr />
                                     <p>{project.description}</p>
-                                    <button className='primary-button'>DEMO</button>
+                                    <button className='primary-button'><a href={project.link} target="_blank">DEMO</a></button>
                                 </div>
                             </div>
                         </div>

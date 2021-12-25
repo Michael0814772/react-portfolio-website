@@ -1,39 +1,45 @@
 const projectData = [
     {
-        title: "POKEDEX",
-        image: "/ecommerce.svg",
-        description: "An ecommerce application developed using react, node, redux and mongodb",
-        link: "/"
+        title: "PORTFOLIO WEBSITE",
+        image: "/portfolio.png",
+        description: "An application developed using react, fetch, and Material UI",
+        link: "https://pokedex-newapi.netlify.app/"
     },
     {
         title: "POKEDEX",
-        image: "/pizzas.svg",
-        description: "An ecommerce application developed using react, node, redux and mongodb",
-        link: "/"
+        image: "/pokedex.png",
+        description: "An application developed using react, fetch, and Material UI",
+        link: "https://pokedex-newapi.netlify.app/"
     },
     {
-        title: "POKEDEX",
-        image: "/hotels.svg",
-        description: "An ecommerce application developed using react, node, redux and mongodb",
-        link: "/"
+        title: "TODO APP",
+        image: "/todo.png",
+        description: "A todo application developed using react, redux and Material UI",
+        link: "https://todo-appwithredux.netlify.app/"
     },
     {
-        title: "POKEDEX",
-        image: "/jobs.svg",
-        description: "An ecommerce application developed using react, node, redux and mongodb",
-        link: "/"
+        title: "OPEN WEATHER APP",
+        image: "/weather.png",
+        description: "A weather checking website developed using html, css, and Javascript",
+        link: "https://michael0814772.github.io/open-weather-app/"
     },
     {
-        title: "POKEDEX",
-        image: "/socialmedia.svg",
-        description: "An ecommerce application developed using react, node, redux and mongodb",
-        link: "/"
+        title: "CALCULATOR",
+        image: "/calculat.png",
+        description: "A calculator developed using html, css, and Javascript",
+        link: "https://michael0814772.github.io/calculator-app/"
     },
     {
-        title: "POKEDEX",
-        image: "/cars.svg",
-        description: "An ecommerce application developed using react, node, redux and mongodb",
-        link: "/"
+        title: "ECOMMERCE APP",
+        image: "/ecommerce.png",
+        description: "An ecommerce application developed using react,redux and Material UI",
+        link: "https://ecommerce-demo-eae2da.netlify.app/"
+    },
+    {
+        title: "MOMENT CHROME EXTENSION",
+        image: "/chrome.png",
+        description: "A website developed using html, css, Javascript, and Local storage",
+        link: "https://michael0814772.github.io/moment-chrome-extension/"
     }
 ]
 
