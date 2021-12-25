@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaInstagram, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaStackOverflow } from 'react-icons/fa'
 
 function Footer() {
     return (
@@ -21,19 +21,19 @@ function Footer() {
                             <p>Designed and Developed By</p>
                             <hr />
 
-                            <div className="d-flex justify-content-between px-3">
+                            <div className="d-flex justify-content-between px-3 footer-icons">
 
-                                <FaInstagram className='footer-icon' />
-                                <FaInstagram className='footer-icon' />
-                                <FaLinkedin className='footer-icon' />
-                                <FaGithub className='footer-icon' />
+                                <a href="https://www.linkedin.com/in/michael-developer/" target="_blank" rel="noopener noreferrer"><FaLinkedin className='footer-icon' /></a>
+                                <a href="https://stackoverflow.com/users/11439822/michael-akin" target="_blank" rel="noopener noreferrer"><FaStackOverflow className='footer-icon' /></a>
+                                <a href="https://www.linkedin.com/in/michael-developer/" target="_blank" rel="noopener noreferrer"><FaLinkedin className='footer-icon' /></a>
+                                <a href="https://github.com/Michael0814772" target="_blank" rel="noopener noreferrer"><FaGithub className='footer-icon' /></a>
                             </div>
 
                             <hr />
 
                             <br />
 
-                            <p>MichaelAkinrinmade</p>
+                            <p>M<span className='letter'>i</span>c<span className='letter'>H</span>a<span className='letter'>E</span>l A<span className='letter'>k</span>i<span className='letter'>N</span>r<span className='letter'>I</span>n<span className='letter'>M</span>a<span className='letter'>D</span>e</p>
                         </div>
                     </div>
                 </div>

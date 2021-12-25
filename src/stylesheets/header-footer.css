@@ -108,6 +108,11 @@ input, textarea {
     cursor: pointer;
 }
 
+.letter {
+    color: cyan;
+    font-weight: bold;
+}
+
 @media (max-width: 750px) {
     .show-header {
         height: 100vh;
