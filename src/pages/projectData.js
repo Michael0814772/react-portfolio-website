@@ -1,9 +1,15 @@
 const projectData = [
     {
+        title: "HEXPLORE",
+        image: "/hexplore.png",
+        description: "A fully responsive modern full stack social media application with all advance social media features such as google authentication, create, edit, delete, and save images, comment on other users post, and filter images.",
+        link: "https://hexplore.netlify.app/"
+    },
+    {
         title: "PORTFOLIO WEBSITE",
         image: "/portfolio.png",
-        description: "An application developed using react, fetch, and Material UI",
-        link: "https://pokedex-newapi.netlify.app/"
+        description: "An application developed using react, CSS and Boostrap",
+        link: "https://michael-react-website.netlify.app/"
     },
     {
         title: "POKEDEX",
@@ -14,7 +20,7 @@ const projectData = [
     {
         title: "TODO APP",
         image: "/todo.png",
-        description: "A todo application developed using react, redux and Material UI",
+        description: "A todo application developed using react, redux and Boostrap",
         link: "https://todo-appwithredux.netlify.app/"
     },
     {
@@ -32,7 +38,7 @@ const projectData = [
     {
         title: "ECOMMERCE APP",
         image: "/ecommerce.png",
-        description: "An ecommerce application developed using react,redux and Material UI",
+        description: "An ecommerce application developed using react,redux and Boostrap",
         link: "https://ecommerce-demo-eae2da.netlify.app/"
     },
     {
